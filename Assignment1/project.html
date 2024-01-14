@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aram's personal website - Project</title>
+    <!--like to css, preconnect, viewport...-->
+    <link rel="stylesheet" href="Styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">      <!-- Header Section -->
+
+      <header>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resume</a>
+          <a class="selected" href="project.html">Project</a>
+          <a href="Contact.html">Contact</a>
+        </nav>
+      </header>
+      <!-- Main Content Section for Projects -->
+
+      <main class="projects">
+        <div class="top-bar flex">
+          <h2>List of projects <span id="indicator"></span></h2>
+          <div>
+            <button id="prev" class="btn" type="button">Previous</button>
+            <button id="next" class="btn" type="button">Next</button>
+          </div>
+        </div>
+        <!-- Start of Project Cards -->
+
+        <div class="slide-show">
+          <div class="card hidden">
+            <!-- image of project --><img src="images/the-tomb-of-hafez-and.jpg" alt="project1 Image; Shiraz, Iran" />
+            <!-- Project 1 Description -->
+
+            <div>
+              <h4>Hometown</h4>
+              <h5>Project #1</h5>
+              <h6>Date Completed:10/01/2023</h6>                <!-- Description of Project 1 -->
+
+              <p>
+                Shiraz is a city in south-central Iran, known for its literary history and
+                many gardens. The marble Tomb of Hafez, honoring the revered poet, sits
+                within its own garden. To the east, the Mausoleum of Saadi houses the
+                13th-century writer’s mosaic-tiled tomb and an underground pool. Shiraz is
+                a gateway to Persepolis, the ruined 6th-century-B.C. capital to the
+                northeast, with its immense gateways, columns and friezes.</p>
+
+            </div>
+          </div>
+
+          <div class="card hidden"><!-- image of project -->
+            <img 
+              src="images/Screenshot 2023-11-27 072240.png"
+              alt="project2Image"
+            />
+            <div>
+              <h4>Project #2</h4>
+              <h5>Random Joke Generator<span>- Level 2</span></h5>
+              <h6>Date Completed:10/23/2023</h6> <!-- Description of Project 2 -->
+
+              <p>This Webpage generates a random joke, uopn user's click on Tell Me A Joke button.</p>
+            </div>
+          </div>
+
+          <div class="card hidden"><!-- image of project -->
+            <img src="images/3.png" alt="project3 Image" />
+            <div>          <!-- Continue with additional project -->
+
+              <h4>project #3</h4>
+              <h5>Form</h5>
+              <h6>Date Completed:10/23/2023</h6> <!-- Description of Project 3 -->
+              <p> This Project is a web form that user can use to add their favorite places into the blog</p>
+            </div>
+          </div>
+
+          <div class="card hidden">
+            <img src="images/4.png" alt="Linux Vim" />
+            <div>          <!-- Continue with additional project  -->
+
+              <h4>project #4</h4>
+              <h5>Linux<span> Vim Environment</span></h5> <!-- Description of Project 4 -->
+              
+              <p>
+This piece of code is generated in Linux Vim environment which is an If-Else situation.
+              </p>
+            </div>
+          </div>
+
+          <div class="card hidden"> <!--image of project -->
+            <img src="images/5.png" alt="Weekly Kitten Subscription Image" />
+            <div>
+              <h4>project #5</h4>
+              <h5>Weekly <span> Kitten Sybscription</span></h5> <!-- Description of Project 5 -->
+             
+              <p>
+This webpage signs up the user for a weekly kitten subscription
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>      <!-- Footer Section -->
+
+      <footer class="flex space-between">
+        <span>
+          <a href="https://www.linkedin.com/in/aram-esmaeili-8aa84b162/" target="_blank"
+            >Linkedin</a
+          >
+        </span>
+
+        <span> Designed and developed by Aram Esmaeili </span>
+      </footer>
+      <!-- JavaScript File for Project Slideshow -->
+
+      <script src="app.js" defer></script>
+    </div>
+  </body>
+</html>

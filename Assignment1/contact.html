@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+     <!-- Link to your CSS stylesheet -->
+    <link href="Styles.css" rel="stylesheet" />
+    <!--linkto  Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+      <!-- Link to Google Fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <!-- Navigation Links -->
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resume</a>
+          <a href="project.html">Project</a>
+          <!-- Selected link for the Contact page -->
+          <a class="selected" href="contact.html">Contact</a>
+        </nav>
+      </header>
+            <!-- Rest of your HTML content... -->
+
+      <div class="banner">
+                <!-- The image for your Contact banner -->
+
+        <img src="./images/istockphoto-1365543480-640x640.jpg" alt="contact us Image"/>
+
+      </div>
+                <!-- Contact form with post method -->
+      <main id="contact-form">
+                <!-- Contact Us section title -->
+
+        <h2>Contact Us</h2>
+        <form method="post">
+                    <!-- Input field for Name -->
+
+          <input type="text" name="name" placeholder="Your Name" required />
+                    <!-- Input field for Email -->
+
+          <input type="email" name="email" placeholder="Your Email" required />
+                    <!-- Textarea for user's message -->
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>       
+             <!-- Submit button for the form -->
+
+          <button type="submit" class="btn primary">Submit</button>
+        </form>
+      </main>
+    </div>
+          <!-- Footer section -->
+
+    <footer class="flex space-between">
+      <span><!-- LinkedIn link in the footer -->
+        <a href="https://www.linkedin.com/in/aram-esmaeili-8aa84b162/" target="_blank"
+          >Linkedin</a
+        >        
+
+      </span>
+      <!-- Information about the designer and developer -->
+
+      <span> Designed and developed by Aram Esmaeili </span>
+    </footer>
+  </body>
+</html>
